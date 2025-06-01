@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service>
+  <short>DNS UDP Rule</short>
+  <description>Regla para permitir DNS UDP (Puerto 53 UDP)</description>
+  <port protocol="udp" port="53"/>
+</service>
