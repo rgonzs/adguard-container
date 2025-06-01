@@ -4,8 +4,8 @@ Description=Adguard container
 # https://www.freedesktop.org/software/systemd/man/latest/systemd.unit.html#Specifiers
 [Container]
 Image=adguard/adguardhome:latest
-Volume=%h/adguard/work:/opt/adguardhome/work:Z
-Volume=%h/adguard/conf:/opt/adguardhome/conf:Z
+Volume=%h/container-data/adguard/work:/opt/adguardhome/work:Z
+Volume=%h/container-data/adguard/conf:/opt/adguardhome/conf:Z
 Network=host
 
 [Service]

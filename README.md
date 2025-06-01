@@ -1,5 +1,10 @@
 # ADGUARD
 
+Create `container-data` folder in user's home directory.
+```bash
+mkdir -p $HOME/container-data
+```
+
 Create the symlink to the systemd rootless user directory, if not exits create it with:
 ```shell
 mkdir -p $HOME/.config/containers/systemd/
